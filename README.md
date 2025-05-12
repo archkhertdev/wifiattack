@@ -62,6 +62,12 @@ Run the Tool
 
 ```sudo ./wifi_attack_menu_auto.sh```
 
+For multi_deauth_attack.sh run:
+
+```chmod +x multi_deauth_attack```
+
+```sudo ./multi_deauth_attack```
+
 
 ---
 
@@ -71,6 +77,20 @@ Menu Options
 1. Broadcast 250 Fake SSIDs
 2. Deauth Connected Wi-Fi Automatically
 3. Exit
+
+For multi_deauth_attack
+
+==== Multi Deauth Attack Features ====
+1. Automatically enables monitor mode
+2. Scans for nearby Wi-Fi routers
+3. Extracts up to 10 unique BSSIDs
+4. Detects and switches to each router's correct channel
+5. Sends intense infinite deauthentication packets to each router
+6. Loops through targets one-by-one to ensure focused attack per router
+7. Fully autonomous (no manual BSSIS/channel input required)
+8. Stops cleanly anfd restores normal Wi-Fi when pressing CTRL+C
+9. Automatically disables monitor mode and restarts NetworkManager
+10. Designed for fast, aggressive testing on multiple networks in range
 
 
 ---

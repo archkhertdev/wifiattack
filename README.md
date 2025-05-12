@@ -65,9 +65,9 @@ Before launching the script, connect your laptop to the Wi-Fi you want to test:
 
 Run the Tool
 
-```chmod +x wifi_attack_menu_auto.sh```
+```chmod +x wifi_attack_v2.sh```
 
-```sudo ./wifi_attack_menu_auto.sh```
+```sudo ./wifi_attack_v2.sh```
 
 For multi_deauth_attack.sh run:
 

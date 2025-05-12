@@ -64,9 +64,9 @@ Run the Tool
 
 For multi_deauth_attack.sh run:
 
-```chmod +x multi_deauth_attack```
+```chmod +x multi_wifi_deauth```
 
-```sudo ./multi_deauth_attack```
+```sudo ./multi_wifi_deauth```
 
 
 ---
@@ -80,7 +80,7 @@ Menu Options
 
 For multi_deauth_attack
 
-==== Multi Deauth Attack Features ====
+==== Multi WiFi Deauth Features ====
 1. Automatically enables monitor mode
 2. Scans for nearby Wi-Fi routers
 3. Extracts up to 10 unique BSSIDs

@@ -27,11 +27,18 @@ A powerful ethical Wi-Fi attack toolkit for Linux systems that can:
 #### For Arch Linux / Manjaro
 bash
 ```sudo pacman -Syu aircrack-ng mdk4 networkmanager```
+```sudo pacman -S figlet lolcat```
 
 For Debian / Ubuntu
 
 ```sudo apt update```
 ```sudo apt install aircrack-ng mdk4 network-manager```
+```sudo apt install figlet lolcat```
+
+If lolcat is not available via apt on older versions, you can install it via Ruby:
+
+```sudo apt install ruby```
+```sudo gem install lolcat```
 
 
 ---

@@ -18,8 +18,9 @@ trap cleanup SIGINT
 function banner() {
     clear
     figlet -f big "Wifi Attack" | lolcat
-    printf "%*s\n\n" $(( ($(tput cols) + 10) / 2 )) "By: Khert | captkhertcloud@gmail.com" | lolcat
-    echo -e "\n[!] Ethical use only. Ctrl+C to stop anytime.\n" | lolcat
+    printf "%*s\n\n" $(( ($(tput cols) + 10) / 2 )) "By: Khert | ARCHKHERT" | lolcat
+    printf "%*s\n\n" $(( ($(tput cols) + 10 / 2 )) " Contact me: captkhertcloud@gmail.com" | lolcat
+    echo -e "\n[!] WiFi Deauther. Use Ethically.\n" | lolcat
 }
 
 function enable_monitor() {

@@ -4,7 +4,7 @@
 
 A powerful ethical Wi-Fi attack toolkit for Linux systems that can:
 - Broadcast 250+ fake SSIDs (Access Points)
-- Deauthenticate all devices from your currently connected Wi-Fi
+- Distrupts the Wi-Fi internet connection for all devices connected to the Wi-Fi network you're attacking.
 
 > Note: This tool is for educational and ethical use only. Only test on networks you own or have permission to audit.
 
@@ -14,7 +14,7 @@ A powerful ethical Wi-Fi attack toolkit for Linux systems that can:
 
 - [x] Auto-detects BSSID and channel of the Wi-Fi you're connected to  
 - [x] Fake SSID flood with names like ARCHKHERT-AB12  
-- [x] Fully automated deauthentication attack  
+- [x] Fully automated wifi internet distruption  
 - [x] Auto-enables/disables monitor mode  
 - [x] Restores NetworkManager on exit (CTRL+C supported)  
 
@@ -119,7 +119,7 @@ sudo systemctl start NetworkManager
 
 ## NOTE
 
-> This software is provided for educational purposes only. Any misuse is the sole responsibility of the user. Use only on networks you own or have permission to test.
+> This project is provided for educational purposes only. Any misuse is the sole responsibility of the user. Use only on networks you own or have permission to test.
 
 > For Educational Purposes Only
 
